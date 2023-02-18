@@ -1,0 +1,11 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>Layer 1</title>
+  <rect stroke-width="4" id="svg_1" height="255" width="269" y="135.19999" x="169.99999" stroke="#000" fill="#fff"/>
+  <rect id="svg_2" height="168" width="251" y="180.19999" x="365.99999" stroke-width="0" stroke="#000" fill="#fff"/>
+  <polyline stroke-linecap="round" id="svg_3" points="421.9999877512456,226.19998910725133 421.9999877512456,226.19998910725133 " stroke-width="0" stroke="#000" fill="none"/>
+  <text font-style="normal" font-weight="normal" xml:space="preserve" text-anchor="start" font-family="'Fraunces'" font-size="95" id="svg_5" y="290.19999" x="263.99999" stroke-width="0" stroke="#000" fill="#000000">ARCTOS</text>
+  <rect id="svg_7" height="15" width="20" y="132.19999" x="155.99999" opacity="NaN" stroke-width="0" stroke="#000" fill="#fff"/>
+ </g>
+</svg>
