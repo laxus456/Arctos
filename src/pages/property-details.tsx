@@ -1,9 +1,9 @@
 import React from 'react'
 
-const PropertyDetails = () => {
+const propertyDetails = () => {
   return (
     <div>property-details</div>
   )
 }
 
-export default PropertyDetails
+export default propertyDetails

@@ -1,7 +1,7 @@
 import React from 'react'
 import { useList } from '@pankod/refine-core';
 import { Typography, Box, Stack } from '@pankod/refine-mui';
-import { PieChart } from 'components';
+import { PieChart, PropertyReferrals, TotalRevenue } from 'components';
 const home = () => {
   return (
     <Box>
@@ -34,6 +34,11 @@ const home = () => {
                 colors={['#275be8', '#c4e8ef']}
             />
         </Box>
+        <Stack mt="25px" width="100%" direction={{ xs: 'column', lg: 'row' }}>
+            <TotalRevenue />
+            <PropertyReferrals />
+            
+        </Stack>
     </Box>
 
     

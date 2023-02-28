@@ -1,9 +1,9 @@
 import React from 'react'
 
-const EditProperty = () => {
+const editProperty = () => {
   return (
     <div>edit-property</div>
   )
 }
 
-export default EditProperty
+export default editProperty
