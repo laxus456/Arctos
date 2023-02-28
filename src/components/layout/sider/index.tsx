@@ -178,7 +178,7 @@ export const Sider: typeof DefaultSider = ({ render }) => {
                 py: isNested ? 1.25 : 1,
                 "&.Mui-selected": {
                   "&:hover": {
-                    backgroundColor: isSelected ? '#13e6e8' : "transparent",
+                    backgroundColor: isSelected ? '#1e36e8' : "transparent",
                   },
                   backgroundColor: isSelected ? '#475be8' : "transparent",
                 },
@@ -246,7 +246,10 @@ export const Sider: typeof DefaultSider = ({ render }) => {
             sx={{
               justifyContent: "center",
               minWidth: 36,
-              color: "primary.contrastText",
+              color: "#808191",
+              marginLeft:"10px",
+              marginRight:"12px"
+
             }}
           >
             <Dashboard />
@@ -274,12 +277,13 @@ export const Sider: typeof DefaultSider = ({ render }) => {
       <ListItemButton
         key="logout"
         onClick={() => mutateLogout()}
-        sx={{ justifyContent: "center", 
-              margin:"10px auto",
-              borderRadius:"12px",
-              minHeight:'56px',
-              width:"90%"
-      }}
+        sx={{ 
+          justifyContent: "center", 
+          margin:"10px auto",
+          borderRadius:"12px",
+          minHeight:'56px',
+          width:"90%"
+        }}
       >
         <ListItemIcon
           sx={{
@@ -415,7 +419,7 @@ export const Sider: typeof DefaultSider = ({ render }) => {
               textAlign: "center",
               borderRadius: 0,
               borderTop: "1px solid #ffffff1a",
-              "&:hover":{
+              '&:hover': {
                 background:'#1e36e8'
               }
             }}
